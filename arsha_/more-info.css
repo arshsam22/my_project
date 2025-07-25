@@ -1,0 +1,70 @@
+.HEADER-container {
+    display: flex;
+    align-items: center;  
+    gap: 50px;
+    padding: 20px;
+    max-width: 1500px;
+    margin:auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: #f9f9f9;
+    height: 500px;
+    margin-top: 0;
+    padding-top: 0%;
+    box-shadow: 5px 10px #888888
+  }
+  .HEADER-container img {
+    width: 500px;  
+    height: auto;
+    border-radius: 20px;
+    flex-shrink: 0; 
+  }
+  .text-content {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .text-content h1 {
+      font-size: 2.5em;
+      margin: 0;
+      color: #222;
+      text-shadow: 2px 2px yellow;
+        
+    }
+    .text-content p {
+      font-size: 1.1em;
+      color: #555;
+      line-height: 1.4;
+      margin: 0;
+      max-width: 550px;
+    }
+    .container {
+        display: flex;
+        gap: 20px; 
+        justify-content: center;
+        padding: 20px;
+        flex-wrap: wrap; 
+       }
+      .column {
+        flex: 1 1 18%;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+        background: #f9f9f9;
+        border-radius: 8px;
+        min-width: 150px; 
+      }
+      .column img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 6px;
+      }
+      .column h3 {
+        margin: 10px 0 6px;
+        font-size: 1.2em;
+      }
+     .KITCHEN H1{
+        text-align: center;
+        font-size:30px;
+     }
